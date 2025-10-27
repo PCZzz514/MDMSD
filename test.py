@@ -135,7 +135,7 @@ syn_preds_all = np.concatenate(all_syn_preds)
 # Classification Metrics
 # ============================================================
 def per_class_metrics(y_true, y_pred, task_name):
-    """计算每个类别的准确率、Precision、Recall、F1"""
+    """calculate Accuracy, Precision, Recall, F1 for each class"""
     unique_classes = np.unique(y_true)
     precision, recall, f1, support = precision_recall_fscore_support(
         y_true, y_pred, labels=unique_classes, zero_division=0
