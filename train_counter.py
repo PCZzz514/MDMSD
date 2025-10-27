@@ -13,7 +13,7 @@ from tqdm import tqdm
 from model_config import config
 from dataset import new_CombDataset
 from collator import combined_model_collate_fn
-from model_test import MDMSD
+from model import MDMSD
 
 # ---------------- Argument Parser ----------------
 parser = argparse.ArgumentParser()
