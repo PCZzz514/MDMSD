@@ -1,7 +1,7 @@
 # MDMSD
 
 MDMSD is a multitask model that could predict two drug-drug interaction tasks: synergy and Mechanism of Action at the same time
-![Model Sturcture](./model structure.jpg)
+![Model Sturcture](https://github.com/PCZzz514/MDMSD/blob/main/model%20structure.jpg)
 
 
 ## Extract features
