@@ -22,7 +22,7 @@ For KPGT, also follow KPGT's "Generate latent features for your datasets" part o
 
 Using the following command to train the model:
 ```
-python train_weight.py --moa_csv datasets/moa/moa_train.csv --syn_csv datasets/syn/syn_filtered.csv --cell_expr_csv datasets/ccle_expr_norm.csv --emb_file1 datasets/ids/kpgt_base.npz --emb_file2 datasets/ids/data_mol_repr_2000drug_conf1.npz --ids_file datasets/ids_smiles/ids_smiles.csv --gpus 0
+python train_counter.py --moa_csv datasets/moa/moa_train.csv --syn_csv datasets/syn/syn_filtered.csv --cell_expr_csv datasets/ccle_expr_norm.csv --emb_file1 datasets/ids/kpgt_base.npz --emb_file2 datasets/ids/data_mol_repr_2000drug_conf1.npz --ids_file datasets/ids_smiles/ids_smiles.csv --gpus 0
 ```
 
 and use the following command to test the model:
