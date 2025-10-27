@@ -28,7 +28,7 @@ cell_expr_csv = "datasets/ccle_expr_norm.csv"
 emb_file1 = "datasets/ids/kpgt_base.npz"
 emb_file2 = "datasets/ids/data_mol_repr_2000drug_conf1.npz"
 ids_csv = "datasets/ids_smiles/ids_smiles.csv"
-checkpoint = "checkpoints/best_test_epoch111_descAcc0.92_synMAE8.11.pt"
+checkpoint = "checkpoints/model.pt"
 
 selected_desc_labels = cfg.get("selected_desc_labels", None)
 selected_metrics = cfg.get("selected_metrics", None)
