@@ -95,7 +95,7 @@ if hasattr(model, "module"):
     model.module.load_state_dict(state_dict, strict=False)
 else:
     model.load_state_dict(state_dict, strict=False)
-print("✅ Model loaded successfully.\n")
+print("Model loaded successfully.\n")
 model.eval()
 
 # ============================================================
