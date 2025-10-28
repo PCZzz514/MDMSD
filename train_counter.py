@@ -269,4 +269,4 @@ for epoch in epoch_bar:
 os.makedirs(args.save_dir, exist_ok=True)
 all_metrics_path = os.path.join(args.save_dir, "all_epochs_metrics_counter.csv")
 pd.DataFrame(metrics).to_csv(all_metrics_path, index=False)
-print(f"\n✅ All metrics saved to {all_metrics_path}")
+print(f"\n All metrics saved to {all_metrics_path}")
